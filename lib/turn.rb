@@ -42,6 +42,6 @@ def turn(board)
   if valid_move(board, index) == true
     move(array, index, char)
   else
-    puts "Please enter 1-9:"
+    turn(board)
   end
 end
